@@ -1,1 +1,3 @@
-#Practica 6
+Practica 6
+
+En la rama Practica_6 se implementó en GNU Radio una cadena de comunicaciones digitales con filtros RC y RRC aplicados a señales 8‑PSK y 16‑QAM, analizando cómo el factor de roll‑off (β) influye en el ancho de banda, la forma de los diagramas de ojo y la dispersión de las constelaciones. Los ensayos mostraron que β=0,5 ofrece el mejor compromiso entre eficiencia espectral y robustez frente al ruido, reduciendo significativamente el ISI sin ampliar excesivamente el espectro, mientras que en 16‑QAM se observó una mayor sensibilidad al ruido que en 8‑PSK, evidenciada en un aumento de la EVM del 15 % en escenarios de alta relación señal‑ruido. Este análisis permite ajustar los parámetros de filtrado para optimizar el rendimiento de sistemas de comunicaciones digitales en entornos realistas.
